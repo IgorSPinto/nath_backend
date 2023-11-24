@@ -29,6 +29,14 @@ class ValidacaoServices {
     static  validarNascimento(nascimento){
         return nascimento.length > 2 && typeof(nascimento) == "string"
     }
+
+    static  validarCref(cref){
+        return cref.length > 2 && typeof(cref) == "string"
+    }
+
+    static  validarData(data){
+        return data.length > 2 && typeof(data) == "string"
+    }
     
 }
 

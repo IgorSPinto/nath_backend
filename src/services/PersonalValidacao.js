@@ -8,8 +8,8 @@ class PersonalServices extends ValidacaoServices {
         return response
     }
 
-    static validarCampos(nome, cpf, telefone){
-        return this.validarNome(nome) && this.validarCpf(cpf) && this.validarTelefone(telefone)
+    static validarCampos(nome, cpf, telefone, data, cref){
+        return this.validarNome(nome) && this.validarCpf(cpf) && this.validarTelefone(telefone) && this.validarData(data) && this.validarCref(cref)
     }
 
 } export default PersonalServices
