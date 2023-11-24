@@ -1,4 +1,4 @@
-```markdown
+
 # API Academia FitLife
 
 <div>
@@ -142,4 +142,3 @@ $ npm start
 
 Desenvolvido por: SeuNome
 </div>
-```
